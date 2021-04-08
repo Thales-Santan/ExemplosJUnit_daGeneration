@@ -1,0 +1,10 @@
+package repository;
+
+import org.springframework.stereotype.Repository;
+
+import model.ContatoModel;
+
+@Repository
+public class ContatoRepository extends JpaRepository<ContatoModel, Long> {
+
+}
